@@ -1,0 +1,94 @@
+.newProduct {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.addProductTitle{
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: lightcoral;
+}
+
+.writeImg {
+  margin-left: 50px;
+  width: 220px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: rgb(129, 125, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 380px;
+  border-radius: 10px;
+}
+
+.descLabel{
+  margin-top: 10px;
+}
+
+.addProductForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  justify-content: center;
+  margin-left: 80px;
+  border-radius: 5px;
+  border: 0.5px solid  rgb(15, 14, 95);
+  padding: 20px;
+}
+
+.addProductItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.price{
+  width: 40px;
+  padding: 8px;
+}
+
+.addProductItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addProductItem > input {
+  padding: 10px;
+}
+
+.addProductItem > select {
+  padding: 10px;
+}
+
+.addProductButton {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(36, 177, 146);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  width: 140px;
+}
